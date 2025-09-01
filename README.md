@@ -1,109 +1,48 @@
 # Employee Wellness & Productivity Analysis Dashboard
-🎯 Project Objective
+Objective
 
-Analyze employee wellness, absenteeism, productivity, and satisfaction trends.
+Analyze employee wellness, absenteeism, productivity, and satisfaction trends to help HR and management improve workforce well-being and performance.
 
-Help HR and management identify factors affecting performance and improve employee well-being.
+Key Focus Areas
 
-🧩 Problem Statements
+Wellness program usage across work modes and age groups
 
-🔹 How work mode and age groups influence wellness program usage.
+Impact of fitness activity on absenteeism
 
-🔹 Relationship between fitness activity hours 🏃‍♀️ and absenteeism 🗓️.
+Department-wise productivity tracking
 
-🔹 Department-wise productivity tracking and cross-team comparison.
+Satisfaction trends over time
 
-🔹 Monitor employee satisfaction trends 📈 to support better HR decisions.
+Dataset Overview
 
-📂 Dataset Overview
-
-Total Records: 900 employees 👥
+Total Records: 900 employees
 
 Key Columns: Age, Department, Work Mode, Fitness Hours, Absenteeism Days, Productivity Score, Satisfaction Level, Wellness Usage, Training Hours, etc.
 
-Calculated Columns:
+Dashboard Highlights
 
-Age Group → Categorizes employees by age ranges.
+Donut Chart: % of employees using wellness programs by work mode & age group
 
-Wellness Used → 1 if employee logs fitness hours, else 0.
+Scatter Plot: Fitness activity hours vs absenteeism days
 
-Measure Columns:
+Column Chart: Total productivity score by department
 
-% Employees Using Wellness Programs → Calculates the percentage enrolled in wellness programs.
+Line Chart: Satisfaction trends by month
 
-📌 Dashboard Visuals
+KPIs: Training hours, overall satisfaction, absenteeism days, wellness usage %
 
-🥯 Donut Chart → Wellness Usage by Work Mode & Age Group.
+Slicers: Department, Work Mode, Age Group, Gender, Last Promotion Date
 
-📉 Scatter Plot → Fitness Hours vs Absenteeism.
+Key Insights
 
-📊 Column Chart → Productivity by Department.
+Productivity: Marketing leads, followed by HR & Sales; Finance shows the lowest productivity
 
-📈 Line Chart → Satisfaction Trends Over Time.
+Satisfaction: Noticeable fluctuations with drops in Feb and year-end, slight rise mid-year
 
-🃏 Card KPIs → Training Hours ⏳, Overall Satisfaction 😃, Overall Performance 🚀, Total Absentee Days 🗓️, Wellness Usage %.
+Fitness vs Absenteeism: Higher fitness activity generally correlates with fewer absenteeism days
 
-🎛️ Slicers → Department, Work Mode, Age Group, Gender & Last Promotion Date.
+Wellness Usage: Hybrid employees participate most; remote employees show lowest engagement
 
-🔍 Key Insights
-📊 Productivity by Department
+Summary
 
-🥇 Marketing → Highest productivity (2K+ units).
-
-🥈 HR & Sales → Moderate productivity, HR slightly ahead.
-
-🥉 Operations → Around 1.5K units.
-
-⚠️ IT, R&D, Finance → Lowest productivity, with Finance at the bottom.
-
-📈 Satisfaction Trend (Line Chart)
-
-📉 Drops from Jan → Feb.
-
-🔄 Fluctuates until a rise in Jul → Aug.
-
-📉 Declines again towards year-end.
-
-🏃‍♀️ Fitness Hours vs Absenteeism (Scatter Plot)
-
-📌 Higher fitness hours → Lower absenteeism trend observed.
-
-⚡ Exceptions exist (e.g., 5 hrs fitness but high absenteeism).
-
-🔗 Indicates a potential inverse relationship.
-
-🥯 Wellness Program Usage (Donut Chart)
-
-🏢 Hybrid workers → Highest wellness program usage.
-
-🏬 Onsite employees → Second highest.
-
-🏡 Remote employees → Lowest participation.
-
-👥 Age distribution:
-
-35-44 yrs → Largest group 🥇
-
-25-34 yrs → Second largest 🥈
-
-45-54 yrs → Moderate 🟡
-
-55+ yrs → Smaller share
-
-<25 yrs → Smallest group
-
-🚀 Tech Stack
-
-Power BI → Interactive dashboard
-
-Excel / CSV → Dataset
-
-Data Modeling → Calculated & measure columns
-
-📌 Summary
-
-This dashboard enables HR & management to:
-✅ Monitor employee wellness participation
-✅ Track productivity trends by department
-✅ Analyze fitness impact on absenteeism
-✅ Improve overall employee satisfaction
+This dashboard helps HR and management monitor employee wellness, track productivity, analyze absenteeism trends, and improve overall workforce satisfaction.
